@@ -10,4 +10,4 @@ app.use(bodyParser.json());
 
 app.use("/users", routes);
 
-app.listen(PORT, () => console.log("Serve not running "));
+app.listen(PORT, () => console.log("Serve not running/running "));
